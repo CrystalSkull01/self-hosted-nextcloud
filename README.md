@@ -20,3 +20,23 @@ The objectives of this project were:
 ---
 
 # Architecture
+
+                     Internet
+                        |
+                        |
+          Cloudflare Zero Trust Tunnel
+                        |
+                        |
+                Ubuntu Server
+                        |
+                Docker Environment
+                        |
+          ---------------------------
+          |                         |
+    Nextcloud Container       MariaDB Container
+          |
+          |
+   External NTFS Storage
+          |
+          |
+   Mobile Photo Backups
